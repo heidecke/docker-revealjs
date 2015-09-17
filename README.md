@@ -10,6 +10,8 @@ the stable nodejs and the latest reveal.js from github.
 
 Create a Dockerfile with the following content:
 
-    FROM heidecke/revealjs
+```
+FROM heidecke/revealjs
 
-    ADD /presentationpath /opt/presentation
+ADD /presentationpath /opt/presentation
+```
